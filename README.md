@@ -58,6 +58,9 @@ The next development phase will focus on integrating all three modules into a un
 
 ## Contributors
 
-- Citizen Registration and Property Management – MySQL
-- Citizen Complaints and Grievance Management – MongoDB
-- Public Transportation Management – Neo4j
+| Module | Database Technology |
+|---|---|
+| Citizen Registration and Property Management | MySQL |
+| Citizen Complaints and Grievance Management | MongoDB |
+| Public Transportation Management | Neo4j |
+
