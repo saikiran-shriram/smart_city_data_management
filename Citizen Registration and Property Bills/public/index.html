@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Smart Solapur | Citizens &amp; Property</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <div class="app">
+    <aside class="side" id="side">
+      <div class="brand">
+        <div class="mark" aria-hidden="true">S</div>
+        <div>
+          <strong>Smart Solapur</strong>
+          <span>City management system</span>
+        </div>
+      </div>
+
+      <nav id="nav" aria-label="Main menu"></nav>
+
+      <div class="side-foot">
+        <span>Citizen and property module</span>
+        <b>MySQL</b>
+      </div>
+    </aside>
+
+    <div class="main">
+      <header class="top">
+        <button class="icon-btn burger" id="burger" aria-label="Open menu" aria-expanded="false"></button>
+        <div class="titles">
+          <h1 id="page-title">Dashboard</h1>
+          <p id="page-sub"></p>
+        </div>
+        <div class="db" id="db" role="status" aria-live="polite">
+          <i></i><span>Checking database</span>
+        </div>
+      </header>
+
+      <main id="main" tabindex="-1"></main>
+
+      <footer class="foot">
+        Smart Solapur City Management System &middot; Academic Database Management Project
+      </footer>
+    </div>
+  </div>
+
+  <div id="modal-root"></div>
+  <div id="toasts" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
