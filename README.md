@@ -56,7 +56,7 @@ The three modules are currently being developed independently. Each module has i
 
 The next development phase will focus on integrating all three modules into a unified interface.
 
-## Contributors
+## Project Modules
 
 | Module | Database Technology |
 |---|---|
